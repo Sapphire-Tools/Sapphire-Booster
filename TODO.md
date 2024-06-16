@@ -8,6 +8,6 @@ Go back to [README](README.md)
 - [ ] Add more unit-tests
 - [ ] Add proxy support
 - [ ] Add code documentation
-- [ ] Refactor some shitty code
+- [x] Refactor some shitty code
 - [ ] Make the joiner less flagged
 - [ ] Implement captcha solver
