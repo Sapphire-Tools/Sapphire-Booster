@@ -34,6 +34,10 @@ class Ui:
               f"{ColorHelper.color('[02]')} Boost Server\n")
 
     @staticmethod
+    def get_user_input(prompt: str) -> str:
+        return input(f"{ColorHelper.color('[?]')} {prompt}: ").strip()
+
+    @staticmethod
     def show_all():
         Ui.initialize_console()
         Ui.print_banner()
@@ -47,4 +51,3 @@ class Ui:
     @staticmethod
     def wait_for_exit():
         input()
-        Ui.process_input()
