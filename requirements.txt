@@ -1,3 +1,4 @@
 requests
 tls-client
 pystyle
+typing_extensions
